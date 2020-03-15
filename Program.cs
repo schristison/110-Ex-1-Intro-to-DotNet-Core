@@ -40,6 +40,14 @@ namespace lab1
             {
                 Console.WriteLine("Iteration: " + i);
             }
+
+            for(int i = 0; i < 20; i++)
+            {
+                if (i % 2 != 0)
+                {
+                    Console.WriteLine("Print all the odd numbers between 0 to 20: " + i);
+                }
+            }
         }
     }
 }
